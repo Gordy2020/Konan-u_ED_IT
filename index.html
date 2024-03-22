@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./CSSs/popup.css">
+    <link rel="stylesheet" href="./CSSs/contents.css">
+    <title>甲南大学の見どころ</title>
+</head>
+    <body>
+        <header> 
+            <h1>甲南大学の見どころ</h1>
+            <p>Welcome to Konan University!</p>
+        </header>
+        <h2></h2><!--旧1号館-->
+        <div class ="gallery">
+            <section>
+                <!-- input要素の配置は、ポップアップ部分より前にする -->
+                <input type="checkbox" id="sisetu_popup">
+                <!-- ポップアップ部分 -->
+                <div id="overlay">
+                    <label for="sisetu_popup" id="bg_gray"></label> <!-- ポップアップ外のグレーの領域 -->
+            
+                    <div id="window"> <!-- ポップアップ -->
+                        <label for="sisetu_popup" id="btn_cloth"> <!-- 閉じるボタン -->
+                            <span></span>
+                        </label>
+                        <div id="bevi"> <!-- ポップアップのコンテンツ -->
+                            <img class="phot" src="./images/iCommons.png" alt="iCommons正面写真">
+                            <p>甲南大学は8学部14学科を持つ総合大学でありながら、学生数約9000人というミディアムサイズの大学。
+                            その為、教員との距離が近いことが特徴的。一人一人に寄り添った手厚い授業が受けられるうえに、相談事もしやすい。</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- 表示コンテンツ -->
+                <label for="sisetu_popup">
+                    <img class="phot" src="./images/Konan_library.jpg" alt="図書館正面写真">
+                </label>
+            </section>
+            <section>
+                <p class="content_title">【分からない事があれば】</p>
+                <p class="main_content">甲南大学では学生と教授との距離が近い！
+                    岡本のキャンパスでは、図書館や学食などの学生が利用する場所でもよく教授と出会うことが！？
+                    質問や悩み事があれば気軽に相談してみよう！</p>
+            </section>
+
+            <!--ここから教職の記事-->
+            <section>
+                <input type="checkbox" id="kilyosilyoku_popup">
+                <div id="overlay">
+                    <label for="kilyosilyoku_popup" id="bg_gray"></label> <!-- ポップアップ外のグレーの領域 -->
+            
+                    <div id="window"> <!-- ポップアップ -->
+                        <label for="kilyosilyoku_popup" id="btn_cloth"> <!-- 閉じるボタン -->
+                            <span></span>
+                        </label>
+                        <div id="bevi"> <!-- ポップアップのコンテンツ -->
+                            <img class="phot" src="./images/Room11204.png" alt="11204教室の写真">
+                            <p>教員を志す人へ目指すなら甲南で！甲南大学には、あなたにピッタリな制度が整っている。</p>
+                            <p>教職センターでは、教員の方が実際に常勤でいらっしゃるので、何か教職について迷っていることがあったらいつでも相談できます。
+                            また、教員採用試験の概要だけでなく、教職に関する雑誌や、新聞も手に入るので、教職課程をとっている生徒にとっては素晴らしい環境であることに間違いない。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- ページのコンテンツ -->
+                <label for="kilyosilyoku_popup">
+                    <img class="phot" src="./images/Konan11gou.jpg" alt="11号館正面写真">
+                </label>
+            </section>
+            <section>
+                <p class="content_title">【教職目指すのに<br>うってつけ】</p>
+                <p class="main_content">教職教員センターに教員採用試験の過去問が置いてあるので、いつでも勉強できる！</p>
+            </section>
+
+            <!--ここからマクドナルドの記事-->
+            <section>
+                <p class="content_title">【みんなでワイワイご飯を食べられる】</p>
+                <p class="main_content">空きコマにでも行き帰りでも、若者の心をしっかりとつかむファストフード。
+                    提供スピードが早いので気軽に行ける！</p>
+            </section>
+            <section>
+                <input type="checkbox" id="mcd_popup">
+                <div id="overlay">
+                    <label for="mcd_popup" id="bg_gray"></label> <!-- ポップアップ外のグレーの領域 -->
+            
+                    <div id="window"> <!-- ポップアップ -->
+                        <label for="mcd_popup" id="btn_cloth"> <!-- 閉じるボタン -->
+                            <span></span>
+                        </label>
+                        <div id="bevi"> <!-- ポップアップのコンテンツ -->
+                            <img class="phot" src="./images/Mcdonald.jpg" alt="駅前マクドナルド">
+                            <p>マクドナルド 摂津本山店</p>
+                            <p>言わずと知れた人気ファストフード店。駅に隣接した立地でお手軽にハンバーガーが食べられる。
+                                学食で昼食を済ませるのもいいが！友達と集まりワイワイ食べるなら、ここは外せない。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- ページのコンテンツ -->
+                <label for="mcd_popup">
+                    <img class="phot" src="./images/Mcdonald.jpg" alt="駅前マクドナルド">
+                </label>
+            </section>
+
+            <!--ここからスターバックスの記事-->
+            <section>
+                <p class="content_title">【集中や休憩したい時に<br>オススメ】</p>
+                <p class="main_content">一息つきたい時にゆっくりできる。また課題をしたい時などにも静かで集中できるのでおすすめ！</p>
+            </section>
+            <section>
+                <input type="checkbox" id="stab_popup">
+                <div id="overlay">
+                    <label for="stab_popup" id="bg_gray"></label> <!-- ポップアップ外のグレーの領域 -->
+            
+                    <div id="window"> <!-- ポップアップ -->
+                        <label for="stab_popup" id="btn_cloth"> <!-- 閉じるボタン -->
+                            <span></span>
+                        </label>
+                        <div id="bevi"> <!-- ポップアップのコンテンツ -->
+                            <img class="phot" src="./images/StarbucksCoffe.png" alt="駅前スターバックス">
+                            <p>スターバックスコーヒー摂津本山岡本ビル店</p>
+                            <p>JR摂津本山駅北側すぐにある、開放感のすてきなスターバックスです。
+                                駅近、ビル内で学生アパートも近くにあり、一人暮らしの学生もよく利用しています。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- ページのコンテンツ -->
+                <label for="stab_popup">
+                    <img class="phot" src="./images/StarbucksCoffe.png" alt="駅前スターバックス">
+                </label>
+            </section>
+
+            <!--ここからbellvilleの記事-->
+            <section>
+                <input type="checkbox" id="belle_ville_popup">
+                <div id="overlay">
+                    <label for="belle_ville_popup" id="bg_gray"></label> <!-- ポップアップ外のグレーの領域 -->
+            
+                    <div id="window"> <!-- ポップアップ -->
+                        <label for="belle_ville_popup" id="btn_cloth"> <!-- 閉じるボタン -->
+                            <span></span>
+                        </label>
+                        <div id="bevi"> <!-- ポップアップのコンテンツ -->
+                            <img class="phot" src="./images/belle_ville.jpg" alt="ベルヴィル正面写真">
+                            <p>belle-ville </p>
+                            <p>美味しいパンケーキが食べれるお店で、岡本駅からすぐにJR摂津本山駅から5分の場所にある。
+                                ほとんどのパンケーキが1000円以内で食べれて、お金がない学生でも帰り道に友人と一服できる最高のお店。
+                                ここのお店のパンケーキは、自家製生クリームを使っているふわふわパンケーキだけでなくサンドウィッチやドリンクの
+                                メニューもかなり充実している。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ページのコンテンツ -->
+                <label for="belle_ville_popup">
+                    <img class="phot" src="./images/belle_ville.jpg" alt="ベルヴィル正面写真">
+                </label>
+            </section>
+            <section>
+                <p class="content_title">【空きコマで行ける店】</p>
+                <p class="main_content">甲南大学が位置する岡本や摂津本山にはオススメ飲食店がたくさん!
+                合間時間に、友達といろんなお店に行ってみよう！</p>
+            </section>
+
+            <!--ここから甲南ハイボールの記事-->
+            <section>
+                <input type="checkbox" id="k_higball_popup">
+                <div id="overlay">
+                    <label for="k_higball_popup" id="bg_gray"></label> <!-- ポップアップ外のグレーの領域 -->
+            
+                    <div id="window"> <!-- ポップアップ -->
+                        <label for="k_higball_popup" id="btn_cloth"> <!-- 閉じるボタン -->
+                            <span></span>
+                        </label>
+                        <div id="k_higball"> <!-- ポップアップのコンテンツ -->
+                            <img class="phot" src="./images/Konan_highball.jpg" alt="甲南ハイボール正面写真">
+                            <p>ザ甲南ハイボール</p>
+                            <p>料理、お酒がリーズナブルに提供されており、これまでにも多くの甲南OB・OGがお世話になっています。
+                            マスター曰く、特別なものは何も無いけれど、提供するものに「手と気を抜かず」を心掛けているとの事。
+                            今年で38周年を迎える歴史のあるこのお店に、あなたもお世話になってはいかがでしょう。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ページのコンテンツ -->
+                <label for="k_higball_popup">
+                    <img class="phot" src="./images/Konan_highball.jpg" alt="甲南ハイボール正面写真">
+                </label>
+            </section>
+            <section>
+                <p class="content_title">【帰りに寄れる店】</p>
+                <p class="main_content">
+                    クラスメートやサークル仲間と放課後一緒にわいわい楽しむも良し。
+                    1人で静かにお酒と料理を楽しむも良し。
+                </p>                 
+            </section>
+        </div>  
+        <h3></h3> <!--平尾八三郎像-->
+    </body>
+
+    <footer>
+        <p>制作:RYNK</p>
+    </footer>   
+</html>
+

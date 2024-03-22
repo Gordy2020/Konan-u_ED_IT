@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.gallery section:nth-child(2) {
+    border: 2px solid #cf1126;
+}
+.gallery section:nth-child(4) {
+    border: 2px solid #00b491;
+}
+.gallery section:nth-child(5) {
+    border: 2px solid #cf1126;
+}
+.gallery section:nth-child(7) {
+    border: 2px solid #00b491;
+}
+.gallery section:nth-child(10) {
+    border: 2px solid #cf1126;
+}
+.gallery section:nth-child(12) {
+    border: 2px solid #00b491;
+}
+/*メインコンテンツここまで*/
+
+header{
+    text-align: center;
+    background: #ffffff;
+}
+
+h2 {
+    background-image: url(./images/Konan1gou.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 80vh;
+}
+
+h3 {
+    background-image: url(./images/Hirao.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 40vh;
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: block;
+}
+
+.phot{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #706e6e;
+    color: white;
+}
